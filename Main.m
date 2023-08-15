@@ -15,7 +15,7 @@ clear all
 close all
 
 %input image
-img=imread("images\inputs\8.jpg");
+img=imread("images\inputs\7.jpg");
 
 %Apply HSV transform to the input image
 [h s v] = rgb2hsv(img);
